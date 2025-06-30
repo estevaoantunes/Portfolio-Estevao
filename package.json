@@ -1,0 +1,24 @@
+{
+  "name": "portfolio-estevao",
+  "version": "1.0.0",
+  "description": "Portfólio pessoal contendo projetos próprios e acadêmicos.",
+  "homepage": "https://github.com/estevaoantunes/Portfolio-Estevao#readme",
+  "bugs": {
+    "url": "https://github.com/estevaoantunes/Portfolio-Estevao/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/estevaoantunes/Portfolio-Estevao.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.11",
+    "tailwindcss": "^4.1.11"
+  }
+}
