@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Martian+Mono:wght@100..800&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/*
+  CORES
+
+  #966352
+  #54363B
+  #1F2F45
+*/
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+body
+{
+    background-color: #1F2F45;
+}
+
+.cabecalho
+{   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row nowrap;
+    width: 100%;
+    padding: 20px 30px;
+}
+
+.links-cabecalho 
+{
+   display: flex;
+   align-items: center;
+   flex-direction: row nowrap;
+   gap: 50px;
+
+}
+
+.links-cabecalho a 
+{   
+    color: white;
+    font-size: medium;
+    font-family: 'Kanit', sans-serif;
+}
+.logo
+{   
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+    font-size: 1.8rem;
+    color: white;
+}
