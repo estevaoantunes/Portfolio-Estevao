@@ -11,8 +11,8 @@ body {
   font-family: 'Arial', sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  background-color: #ffffff;
-  color: hsl(0, 0%, 0%);
+  background-color: #282C34;
+  color: hsl(0, 0%, 100%);
 }
 
 a {
@@ -25,10 +25,13 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 15px 50px;
-  border-bottom: 1px solid gray;
-  background-color: #ffffff; 
+  padding: 20px 50px;
+  background-color: #1C1E24; 
   backdrop-filter: blur(8px);
+  padding-bottom: 24px;
+  box-shadow: 0px 8px 15px rgba(28, 30, 36, 0.6);
+
+
 }
 
 .logo { 
@@ -56,6 +59,7 @@ a {
 }
 
 .frase-introducao {
+  font-size: xx-large;
   font-family: 'Roboto Slab', serif;
   max-width: 600px;
 }
@@ -72,10 +76,12 @@ a {
 .ola
 {
   font-size: 2.5rem;
+
+  
 }
 .destaque {
   font-size: 2.5rem;
-  color: rgb(47, 136, 196);
+  color: #FFD700;
   margin-left: 10px;
 }
 
@@ -85,19 +91,24 @@ a {
   margin-top: 15px;
 }
 
+/*REDES SOCIAIS*/
 .secao-redes-sociais {
   margin-top: 20px;
 }
 
-.secao-redes-sociais a img { 
-  width: 42px;
-  height: 42px;
-  margin-right: 10px;
+.secao-redes-sociais a i { 
+  font-size: 38px;
+  margin-right: 15px;
   transition: transform 0.2s ease;
 }
 
-.secao-redes-sociais a img:hover {
+.secao-redes-sociais a i:hover {
   transform: scale(1.1);
+}
+
+.tags
+{
+  color: #FFD700;
 }
 
 /*FOTO*/
@@ -105,6 +116,26 @@ a {
   height: 250px;
   width: 250px;
   border-radius: 50%; 
-  object-fit: cover;
-  border: 3px solid rgb(47, 136, 196);
+  object-fit: cover; 
+}
+
+/*SERVIÇOS*/
+
+.frase-servicos
+{ 
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+  font-size: xx-large;
+}
+
+.div-titulo-servicos
+{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 150px auto 0px;
+  width: 60%;
+  padding: 10px;
+
 }

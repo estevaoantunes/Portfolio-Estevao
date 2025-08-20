@@ -5,23 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfólio - Estevão Antunes</title>
   <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/bea9082cbd.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
+  <!--CABEÇALHO-->
   <header class="cabecalho">
     <h1 class="logo">{Estevão Antunes}</h1>
     <nav class="secoes">
-      <a href="#">Sobre mim</a>
+      <a href="#introducao">Sobre mim</a>
       <a href="#">Tecnologias</a>
       <a href="#">Projetos</a>
     </nav>
   </header>
 
-  <article class="introducao">
+  <!--INTRODUÇÃO-->
+  <article class="introducao" id="#introducao">
     <div class="frase-introducao">
-      <p class="saudacao">Hi,</p>
+      <p class="saudacao">Hi 🖐️</p>
       <p class="ola">I'm <span class="destaque">Estevão Antunes</span></p>
-      <p class="subtitulo">Frontend Developer</p>
+      <p class="subtitulo"><span class="tags"><</span> Frontend Developer <span class="tags">/></span></p>
       <p class="descricao">
         Sou estudante no 3° período do curso de Análise e Desenvolvimento de Sistemas da PUC Minas. 
         Tenho paixão em desenvolver interfaces interativas e atrativas que entregam uma experiência agradável.
@@ -29,18 +32,32 @@
       </p>
       <div class="secao-redes-sociais">
         <a href="https://github.com/estevaoantunes" target="_blank">
-          <img src="img/github.png" alt="GitHub">
+           <i class="fa-brands fa-github" style="color: #FFD700;"></i> 
         </a>
         <a href="https://linkedin.com/in/estevao-antunes" target="_blank">
-          <img src="img/linkedin.png" alt="LinkedIn">
+          <i class="fa-brands fa-linkedin" style="color: #FFD700;"></i>
+        </a>
+        <a href="https://wa.me/5531991414059" taget="_blank">
+          <i class="fa-brands fa-square-whatsapp" style="color: #ffd700;"></i>
+        </a>
+        <a href="mailto:estevao.antunes123@gmail.com" target="_blank">
+          <i class="fa-solid fa-envelope" style="color: #ffd400;"></i>
         </a>
       </div>
     </div>
-
     <div class="div-foto-apresentacao">
       <img class="foto-apresentacao" src="img/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTAxL3JtNjA5LXNvbGlkaWNvbi13LTAwMi1wLnBuZw.png" alt="Foto de apresentação">
     </div>
   </article>
 
+    <!--MEUS SERVIÇOS-->
+    
+  <article class="servicos">
+    <div class="linha-tracejada"></div>
+    <div class="div-titulo-servicos">
+      <h1 class="frase-servicos">O QUE EU FAÇO ?</h1>
+    </div>
+  </article>
 </body>
 </html>
+
