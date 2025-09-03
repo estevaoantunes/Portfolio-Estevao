@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 
 /* ==============================
    RESET & CONFIGURAÇÃO GLOBAL
@@ -10,12 +12,17 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Arial', sans-serif;
   font-size: 16px;
   line-height: 1.5;
   background-image: linear-gradient(to bottom, #23262c, #21252b, #20232a, #1e222a, #1d2129);
   color: #fff;
+  text-decoration: none;
 }
 
 a {
@@ -34,11 +41,30 @@ a {
   background-color: #1C1E24;
   backdrop-filter: blur(8px);
   box-shadow: 0px 8px 15px rgba(28, 30, 36, 0.6);
+
 }
+
+.secoes a {
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.secoes a:hover {
+  color: #FFD700;
+  text-shadow: 0 0 2px rgba(255, 215, 0, 0.6);
+}
+
 
 .logo {
   font-size: 1.5rem;
   font-family: 'Roboto Slab', serif;
+}
+
+.logo:hover
+{
+  color: #FFD700;
+  text-shadow: 0 0 2px rgba(255, 215, 0, 0.6);
+    transform: rotatey(5px);
+
 }
 
 .secoes {
@@ -48,6 +74,11 @@ a {
 
 .secoes a {
   font-family: 'Roboto Slab', serif;
+}
+
+.secoes a:hover {
+  transform: rotateX(5px);
+
 }
 
 /* ==============================
@@ -86,6 +117,16 @@ a {
   margin-top: 15px;
 }
 
+
+.mao {
+  display: inline-block;
+  transform-origin: bottom right;
+  font-size: 2.5rem;
+  animation: acenar 1.5s ease-in-out 1 forwards;
+}
+
+
+
 .star {
   margin-left: 10px;
 }
@@ -109,12 +150,37 @@ a {
   color: #FFD700;
 }
 
+
 /* FOTO */
-.foto-apresentacao {
-  height: 250px;
+
+.div-foto-apresentacao {
+  position: relative;
   width: 250px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.foto-apresentacao {
+  height: 100%;
+  width: 100%;
   border-radius: 50%;
   object-fit: cover;
+  position: relative;
+  z-index: 2;
+}
+
+.circulo-apresentacao {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: #FFD700;
+  transform: translate(-50%, -50%);
+  z-index: 1;
 }
 
 /* ==============================
@@ -239,10 +305,9 @@ a {
 /* ==============================
    TECNOLOGIAS
 =================================*/
-
 .tecnologias {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   align-items: center;
   margin-top: 100px;
 }
@@ -262,38 +327,38 @@ a {
 
 .div-tecnologias {
   display: flex;
-  flex-wrap: wrap;          
-  justify-content: center;  
-  gap: 20px;                
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
   margin-top: 40px;
 }
 
-.div-icon { 
+.div-icon {
   display: flex;
   align-items: center;
-  justify-content: center;  
-  gap: 10px;                
+  justify-content: center;
+  gap: 10px;
   width: 200px;
   height: 60px;
   border-radius: 8px;
   border: 1px solid gray;
   background: #1C1E24;
-  box-shadow: 0 0 6px rgba(0,0,0,0.3);
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
   transition: transform 0.2s ease, border-color 0.2s ease;
 }
 
-/*Animação*/
+
 .div-icon:hover {
   transform: translateY(-3px);
   border-color: #9d50dc;
 }
 
-.icon-tecnologias { 
+.icon-tecnologias {
   width: 35px;
   height: 35px;
 }
 
-.p-icon { 
+.p-icon {
   font-family: "Anta", sans-serif;
   margin: 0;
   font-weight: 600;
@@ -302,6 +367,177 @@ a {
 }
 
 /* ==============================
+   PROJETOS 
+=================================*/
+
+.projetos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  margin: 80px auto;
+  max-width: 900px;
+  text-align: center;
+  padding: 20px;
+  overflow: visible;
+}
+
+.frase-projetos {
+  margin: 50px 0 50px;
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+  font-size: xx-large;
+}
+
+
+.projeto-slide {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #1C1E24;
+  min-width: 350px;
+  max-width: 350px;
+  height: auto;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  position: relative;
+  transition: transform 0.3s ease;
+  border: 1px solid rgba(128, 128, 128, 0.418);
+
+}
+
+.projeto-slide:hover {
+  transform: translateY(-5px);
+
+  box-shadow: -1px 0px 47px -28px rgba(255, 215, 0, 0.75);
+  -webkit-box-shadow: -1px 0px 47px -28px rgba(255, 215, 0, 0.75);
+  -moz-box-shadow: -1px 0px 47px -28px rgba(255, 215, 0, 0.75);
+}
+
+.carrossel {
+  padding: 10px;
+}
+
+.projeto-titulo {
+  font-family: 'Inter', sans-serif;
+  color: #9527b1;
+  padding: 5px 16px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  margin: 16px 0 18px;
+  border-radius: 50px;
+  background-color: #e0a2ec;
+  width: fit-content;
+}
+
+.gif-projetos {
+  object-fit: cover;
+  width: 100%;
+  height: 180px;
+  border-radius: 10px;
+}
+
+.projeto-info {
+
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.projeto-titulo {
+  font-family: 'Inter', sans-serif;
+  color: rgb(21, 67, 126);
+  padding: 5px 16px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin: 10px auto;
+  border-radius: 60px;
+  background-color: #78b0e6;
+  width: fit-content;
+}
+
+.projeto-desc {
+
+  font-size: 0.9rem;
+  color: #fff;
+  margin: 10px 0px 30px 0px;
+  padding: 0 10px;
+  font-family: "Anta", sans-serif;
+  font-weight: 400;
+}
+
+.seta-card {
+  position: absolute;
+  bottom: 15px;
+  left: 30px;
+  font-size: 1.2rem;
+  color: #9d50dc;
+  cursor: pointer;
+  transition: transform 0.4s ease, color 0.4s ease;
+
+}
+
+.seta-card:hover {
+  transform: translate(6px);
+
+}
+
+.carrossel {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding-bottom: 15px;
+}
+
+.projeto-slide {
+  flex: 0 0 350px;
+  scroll-snap-align: start;
+}
+
+
+.div-circulo {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 25px;
+}
+
+.circulo {
+  width: 12px;
+  height: 12px;
+  background-color: #FFD700;
+  border-radius: 50%;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+}
+
+.circulo:hover {
+  transform: scale(1.3);
+  background-color: #9527b1;
+}
+
+
+.circulo-ativo {
+  background-color: #FFD700;
+
+}
+
+#livroteca {
+  color: #c385d3;
+  background-color: #642661;
+}
+
+#estudio-ghibli {
+  color: rgb(235, 83, 28);
+  background-color: rgb(231, 206, 64);
+}
+
+/*============================
    SCROLLBAR
 =================================*/
 body::-webkit-scrollbar {
@@ -317,10 +553,194 @@ body::-webkit-scrollbar-thumb {
   border-radius: 10px;
 }
 
+
+
 /* ==============================
    RODAPÉ
 =================================*/
 .rodape {
- 
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  width: 100%;
 }
 
+.direitos {
+  font-size: medium;
+  font-family: 'Anta', sans-serif;
+}
+
+
+/*Animação da Mão*/
+
+@keyframes acenar {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  20% {
+    transform: rotate(20deg);
+  }
+
+  40% {
+    transform: rotate(-10deg);
+  }
+
+  60% {
+    transform: rotate(15deg);
+  }
+
+  80% {
+    transform: rotate(-5deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+   /*MEDIA QUERIES - MOBILE*/
+
+@media (max-width: 1024px) {
+  .cabecalho {
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px 20px;
+  }
+
+  .secoes {
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .introducao {
+    flex-direction: column;
+    padding: 30px 20px;
+    margin-top: 30px;
+  }
+
+  .frase-introducao {
+    font-size: 1.8rem;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .descricao {
+    font-size: 1rem;
+  }
+
+  .div-foto-apresentacao {
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+  }
+
+  .foto-apresentacao {
+    width: 100%;
+    height: 100%;
+  }
+
+  .circulo-apresentacao {
+    width: 200px;
+    height: 200px;
+  }
+
+  .servicos .div-apresentacao {
+    width: 90%;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .div-teste-01,
+  .div-teste-02 {
+    flex: 0 1 auto; 
+    width: 100%;
+    height: auto;
+  }
+
+  .apresentacao-texto {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+
+  .apresentacao-texto i {
+    margin-right: 0;
+    font-size: 20px;
+  }
+
+  .tecnologias .div-tecnologias {
+    gap: 15px;
+  }
+
+  .div-icon {
+    width: 140px;
+    height: 50px;
+  }
+
+  .projetos .carrossel {
+    gap: 15px;
+    padding-bottom: 10px;
+  }
+
+  .projeto-slide {
+    flex: 0 1 250px; 
+    max-width: 250px;
+  }
+
+  .frase-projetos,
+  .frase-tecnologias,
+  .frase-servicos {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .cabecalho {
+    padding: 10px 15px;
+  }
+
+  .introducao {
+    padding: 20px 15px;
+  }
+
+  .descricao {
+    font-size: 0.95rem;
+  }
+
+  .div-foto-apresentacao {
+    width: 200px;
+    height: 200px;
+  }
+
+  .circulo-apresentacao {
+    width: 150px;
+    height: 150px;
+  }
+
+  .apresentacao-texto {
+    font-size: 0.85rem;
+  }
+
+  .div-icon {
+    width: 120px;
+    height: 45px;
+    font-size: 0.85rem;
+  }
+
+  .projeto-slide {
+    flex: 0 1 200px;
+    max-width: 200px;
+  }
+
+  .frase-projetos,
+  .frase-tecnologias,
+  .frase-servicos {
+    font-size: 1.2rem;
+  }
+}
