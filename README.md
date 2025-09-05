@@ -49,6 +49,7 @@ Um espaço onde posso centralizar minha trajetória e contar quem eu sou de form
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
 </p>
+<br>
 
-![gif](https://github.com/user-attachments/assets/f3d4e9c2-4a60-4ce6-8e2d-0fbff74cd255)
+<img src="https://github.com/user-attachments/assets/f3d4e9c2-4a60-4ce6-8e2d-0fbff74cd255" alt="GIF do Portfólio" width="400px">
 # Feito por @kaijupxl
