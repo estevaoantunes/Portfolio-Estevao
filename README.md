@@ -7,7 +7,7 @@ Nele você poderá encontrar alguns dos meus projetos, as minhas aptidões e con
 
 ## ✨ Do que se trata este projeto ? 
 
-Eu desenvolvi este portfólio para poder apresentar ao mundo alguns dos meus trabalhos e as minhas experiências como desenvolvedor front-end.
+Eu desenvolvi este portfólio para poder apresentar ao mundo alguns dos meus trabalhos e as minhas experiências como desenvolvedor front-end.<br>
 Um espaço onde posso centralizar minha trajetória e contar quem eu sou de forma acessível de qualquer lugar - seja no computador ou celular.
 
 ---
@@ -20,7 +20,7 @@ Um espaço onde posso centralizar minha trajetória e contar quem eu sou de form
 
 ## 🎭 Versões
 
-![Versão para Desktop 👨‍💻]()
+![Versão para Desktop 👨‍💻]()<br>
 ![Versão para Mobile 📱]()
 
 ---
