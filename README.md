@@ -12,7 +12,7 @@ Um espaço onde posso centralizar minha trajetória e contar quem eu sou de form
 
 ---
 <br>
-#@ 🌍 Onde acessar <br>
+## 🌍 Onde acessar <br>
 
 🔗 [Clique aqui para poder visitar meu portfólio]()
 
@@ -20,8 +20,8 @@ Um espaço onde posso centralizar minha trajetória e contar quem eu sou de form
 <br>
 ## 🎭 Tecnologias<br>
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)<br>
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)  ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
 
 ---
 <br>
