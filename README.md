@@ -29,10 +29,10 @@ Um espaço onde posso centralizar minha trajetória e contar quem eu sou de form
 
 ## 📌 O que você vai encontrar?
 
-- 🟡 **Sobre mim** → Uma breve apresentação pessoal.
-- 🟡 **Contato** → Links para GitHub, LinkedIn e email.
-- 🟡 **Tecnologias** → As ferramentas que utilizo.
-- 🟡 **Projetos** → Uma seleção dos meus principais projetos.
+ 🟡 **Sobre mim** → Uma breve apresentação pessoal.
+ 🟡 **Contato** → Links para GitHub, LinkedIn e email.
+ 🟡 **Tecnologias** → As ferramentas que utilizo.
+ 🟡 **Projetos** → Uma seleção dos meus principais projetos.
 
 ---
 
