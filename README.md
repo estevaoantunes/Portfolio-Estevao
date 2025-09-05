@@ -1,6 +1,6 @@
 # 🖥️ Portfólio - Estevão Antunes Lessa de Sousa Oliveira
 
-Seja muito bem-vindo(a) ao meu portfólio web! 🤚  
+Seja muito bem-vindo(a) ao meu portfólio web! 🤚<br>  
 Nele você poderá encontrar alguns dos meus projetos, minhas aptidões e conhecimentos, além de conhecer mais sobre mim como desenvolvedor.
 
 ---
