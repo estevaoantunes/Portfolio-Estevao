@@ -5,33 +5,33 @@ Nele você poderá encontrar alguns dos meus projetos, as minhas aptidões e con
 
 ---
 <br>
-## ✨ Do que se trata este projeto ? 
+## ✨ Do que se trata este projeto ?<br> 
 
 Eu desenvolvi este portfólio para poder apresentar ao mundo alguns dos meus trabalhos e as minhas experiências como desenvolvedor front-end.<br>
 Um espaço onde posso centralizar minha trajetória e contar quem eu sou de forma acessível de qualquer lugar - seja no computador ou celular.
 
 ---
 <br>
-## 🌍 Onde acessar 
+## 🌍 Onde acessar <br>
 
 🔗 [Clique aqui para poder visitar meu portfólio]()
 
 ---
 <br>
-## 🎭 Tecnologias
+## 🎭 Tecnologias<br>
 
 
 
 ---
 <br>
-## 📌 O que você vai encontrar ?
+## 📌 O que você vai encontrar ?<br>
 
 - **Sobre mim** → Uma breve apresentação pessoal.<br>
 - **Contato** → Links para GitHub, LinkedIn e email. <br> 
 - **Tecnologias** → As ferramentas que utilizo.<br>  
 - **Projetos** → Uma seleção dos meus principais projetos.  
 
-## 📬 Como me contatar ?
+## 📬 Como me contatar ?<br>
 
 - GitHub: [@estevaoantunes](https://github.com/estevaoantunes)<br>
 - LinkedIn: [Estevão Antunes](https://linkedin.com/in/estevao-antunes)<br>
