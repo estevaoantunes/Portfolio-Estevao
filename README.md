@@ -29,12 +29,10 @@ Um espaço onde posso centralizar minha trajetória e contar quem eu sou de form
 
 ## 📌 O que você vai encontrar?
 
-<ul>
-  <li><span style="color: #FFD700;">-</span> <strong>Sobre mim</strong> → Uma breve apresentação pessoal.</li>
-  <li><span style="color: #FFD700;">-</span> <strong>Contato</strong> → Links para GitHub, LinkedIn e email.</li>
-  <li><span style="color: #FFD700;">-</span> <strong>Tecnologias</strong> → As ferramentas que utilizo.</li>
-  <li><span style="color: #FFD700;">-</span> <strong>Projetos</strong> → Uma seleção dos meus principais projetos.</li>
-</ul>
+- 🟡 **Sobre mim** → Uma breve apresentação pessoal.
+- 🟡 **Contato** → Links para GitHub, LinkedIn e email.
+- 🟡 **Tecnologias** → As ferramentas que utilizo.
+- 🟡 **Projetos** → Uma seleção dos meus principais projetos.
 
 ---
 
