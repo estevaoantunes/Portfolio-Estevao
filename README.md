@@ -50,3 +50,5 @@ Um espaço onde posso centralizar minha trajetória e contar quem eu sou de form
   </a>
 </p>
 
+![gif](https://github.com/user-attachments/assets/f3d4e9c2-4a60-4ce6-8e2d-0fbff74cd255)
+# Feito por @kaijupxl
