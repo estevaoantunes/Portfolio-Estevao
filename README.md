@@ -51,7 +51,7 @@ Um espaço onde posso centralizar minha trajetória e contar quem eu sou de form
 </p>
 <br>
 
-<img src="https://github.com/user-attachments/assets/f3d4e9c2-4a60-4ce6-8e2d-0fbff74cd255" alt="GIF do Portfólio" width="100%" height="280px">
+<img src="https://github.com/user-attachments/assets/f3d4e9c2-4a60-4ce6-8e2d-0fbff74cd255" alt="GIF do Portfólio" width="100%" height="300px">
 
 
 ### 🎨 Arte feita por: @kaijupxl
