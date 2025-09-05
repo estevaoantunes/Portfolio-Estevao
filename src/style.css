@@ -51,19 +51,21 @@ a {
 .secoes a:hover {
   color: #FFD700;
   text-shadow: 0 0 2px rgba(255, 215, 0, 0.6);
+
+
 }
 
 
 .logo {
   font-size: 1.5rem;
   font-family: 'Roboto Slab', serif;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+
 }
 
-.logo:hover
-{
+.logo:hover {
   color: #FFD700;
   text-shadow: 0 0 2px rgba(255, 215, 0, 0.6);
-    transform: rotatey(5px);
 
 }
 
@@ -74,10 +76,7 @@ a {
 
 .secoes a {
   font-family: 'Roboto Slab', serif;
-}
-
-.secoes a:hover {
-  transform: rotateX(5px);
+  transition: color 0.3s ease, text-shadow 0.3s ease;
 
 }
 
@@ -124,8 +123,6 @@ a {
   font-size: 2.5rem;
   animation: acenar 1.5s ease-in-out 1 forwards;
 }
-
-
 
 .star {
   margin-left: 10px;
@@ -474,7 +471,7 @@ a {
   position: absolute;
   bottom: 15px;
   left: 30px;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   color: #9d50dc;
   cursor: pointer;
   transition: transform 0.4s ease, color 0.4s ease;
@@ -601,9 +598,8 @@ body::-webkit-scrollbar-thumb {
   }
 }
 
-   /*MEDIA QUERIES - MOBILE*/
-
-@media (max-width: 1024px) {
+/*MEDIA QUERIES - TABLET*/
+@media screen and (max-width: 1024px) {
   .cabecalho {
     flex-direction: column;
     gap: 15px;
@@ -656,7 +652,7 @@ body::-webkit-scrollbar-thumb {
 
   .div-teste-01,
   .div-teste-02 {
-    flex: 0 1 auto; 
+    flex: 0 1 auto;
     width: 100%;
     height: auto;
   }
@@ -689,7 +685,7 @@ body::-webkit-scrollbar-thumb {
   }
 
   .projeto-slide {
-    flex: 0 1 250px; 
+    flex: 0 1 250px;
     max-width: 250px;
   }
 
@@ -700,47 +696,32 @@ body::-webkit-scrollbar-thumb {
   }
 }
 
-@media (max-width: 600px) {
-  .cabecalho {
-    padding: 10px 15px;
+/*MEDIA QUERIES - MOBILE*/
+
+@media (max-width: 768px) {
+  
+  .carrossel {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    gap: 20px;
+    overflow: visible; 
   }
 
-  .introducao {
-    padding: 20px 15px;
-  }
-
-  .descricao {
-    font-size: 0.95rem;
-  }
-
-  .div-foto-apresentacao {
-    width: 200px;
-    height: 200px;
-  }
-
-  .circulo-apresentacao {
-    width: 150px;
-    height: 150px;
-  }
-
-  .apresentacao-texto {
-    font-size: 0.85rem;
-  }
-
-  .div-icon {
-    width: 120px;
-    height: 45px;
-    font-size: 0.85rem;
-  }
-
+  /* Ajusta os slides */
   .projeto-slide {
-    flex: 0 1 200px;
-    max-width: 200px;
+    flex: none;
+    width: 90%; 
+    max-width: 400px; 
   }
 
-  .frase-projetos,
-  .frase-tecnologias,
-  .frase-servicos {
-    font-size: 1.2rem;
+ 
+  .frase-projetos {
+    font-size: 1.5rem;
+  }
+
+  
+  .div-circulo {
+    display: none;
   }
 }
