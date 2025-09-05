@@ -38,6 +38,15 @@ Um espaço onde posso centralizar minha trajetória e contar quem eu sou de form
 
 ## 📬 Como me contatar?
 
-- GitHub: [@estevaoantunes](https://github.com/estevaoantunes)  
-- LinkedIn: [Estevão Antunes](https://linkedin.com/in/estevao-antunes)  
-- Email: [estevao.antunes123@gmail.com](mailto:estevao.antunes123@gmail.com)  
+<p align="left">
+  <a href="https://github.com/estevaoantunes" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-%2312100E.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  <a href="https://linkedin.com/in/estevao-antunes" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:estevao.antunes123@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+</p>
+
